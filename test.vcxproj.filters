@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="backend">
+      <UniqueIdentifier>{1a9b68be-1c04-435f-b065-cacfeead6366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exceptions">
+      <UniqueIdentifier>{a3797731-fd43-4ed6-8e3e-a80a60d99fa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="misc">
+      <UniqueIdentifier>{f0a4b376-9741-4b47-9f5e-64e885b59fb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="service">
+      <UniqueIdentifier>{09c0b95e-9ab1-4baa-872c-83da27d41c7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wrapper">
+      <UniqueIdentifier>{fba094d7-14e0-47c7-9da5-65f87bf596c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structures">
+      <UniqueIdentifier>{3b77f02c-a073-4cff-bfe0-fb70abf3b65f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structures\generic">
+      <UniqueIdentifier>{158387cf-6475-4979-bca1-731f9882185a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structures\misc">
+      <UniqueIdentifier>{a479e5c9-47b7-4027-9b3b-1b7bc75159d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CmakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IL2CPP.hpp" />
+    <ClInclude Include="Main.hpp" />
+    <ClInclude Include="service\ClassMapping.hpp">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="service\CommonCShrap.hpp">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="service\Dumper.hpp">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\Class.hpp">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\Domain.hpp">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\FieldInfo.hpp">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\Image.hpp">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\MethodInfo.hpp">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\Object.hpp">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\String.hpp">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\Type.hpp">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\Typedefs.hpp">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\generic\Array.hpp">
+      <Filter>structures\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\generic\List.hpp">
+      <Filter>structures\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\misc\PatternStructs.hpp">
+      <Filter>structures\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="wrapper\MethodWrapper.hpp">
+      <Filter>wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="misc\CommonGameStructs.hpp">
+      <Filter>misc</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\ExceptionBase.hpp">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\IndexOutOfBound.hpp">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\NoSuchClass.hpp">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\NoSuchImage.hpp">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\NoSuchMember.hpp">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\NoSuchResult.hpp">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\NullArgument.hpp">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\PatternScanFailed.hpp">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\UnexpectedError.hpp">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptions\UnresolvedMappingQueue.hpp">
+      <Filter>exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="backend\api-function.hpp">
+      <Filter>backend</Filter>
+    </ClInclude>
+    <ClInclude Include="backend\api-import-list.hpp">
+      <Filter>backend</Filter>
+    </ClInclude>
+    <ClInclude Include="backend\tabledefs.hpp">
+      <Filter>backend</Filter>
+    </ClInclude>
+    <ClInclude Include="backend\types.hpp">
+      <Filter>backend</Filter>
+    </ClInclude>
+    <ClInclude Include="backend\vm-functions.hpp">
+      <Filter>backend</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="service\ClassMapping.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="service\CommonCShrap.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="service\Dumper.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\Class.cpp">
+      <Filter>structures</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\Domain.cpp">
+      <Filter>structures</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\FieldInfo.cpp">
+      <Filter>structures</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\Image.cpp">
+      <Filter>structures</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\MethodInfo.cpp">
+      <Filter>structures</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\Object.cpp">
+      <Filter>structures</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\String.cpp">
+      <Filter>structures</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\Type.cpp">
+      <Filter>structures</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\misc\PatternStructs.cpp">
+      <Filter>structures\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="exceptions\ExceptionBase.cpp">
+      <Filter>exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="backend\api-function.cpp">
+      <Filter>backend</Filter>
+    </ClCompile>
+    <ClCompile Include="backend\vm-functions.cpp">
+      <Filter>backend</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
